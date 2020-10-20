@@ -9,31 +9,10 @@
     <event-listeners/>
     <task-event-listeners/>
     <globals/>
-    <work-item-handlers>
-        <work-item-handler>
-            <resolver>mvel</resolver>
-            <identifier>new org.jbpm.process.workitem.email.EmailWorkItemHandler("smtp.loshereoes.cl", "25", "SOS@losheroes.cl", "$OpOrt3-2020+", "true")</identifier>
-            <parameters/>
-            <name>Email</name>
-        </work-item-handler>
-        <work-item-handler>
-            <resolver>mvel</resolver>
-            <identifier>new org.jbpm.process.workitem.rest.RESTWorkItemHandler()</identifier>
-            <parameters/>
-            <name>Rest</name>
-        </work-item-handler>
-        <work-item-handler>
-            <resolver>mvel</resolver>
-            <identifier>new org.kie.server.client.integration.RemoteBusinessRuleTaskHandler("http://rhpam-kieserver-http-dev-tramos-piloto.apps.ocp-esc.losheroes.int/services/rest/server", "adminUser", "RedHat", classLoader)</identifier>
-            <parameters/>
-            <name>RemoteBusinessRule</name>
-        </work-item-handler>
-    </work-item-handlers>
+    <work-item-handlers/>
     <environment-entries/>
     <configurations/>
     <required-roles/>
-    <remoteable-classes>
-        <remoteable-class>cl.clh.tramos.dto.Propuesta</remoteable-class>
-    </remoteable-classes>
+    <remoteable-classes/>
     <limit-serialization-classes>true</limit-serialization-classes>
 </deployment-descriptor>
