@@ -24,7 +24,7 @@
         </work-item-handler>
         <work-item-handler>
             <resolver>mvel</resolver>
-            <identifier>new org.kie.server.client.integration.RemoteBusinessRuleTaskHandler("http://rhpam-kieserver-http-dev-tramos-piloto.apps.ocp-esc.losheroes.int/services/rest/server", "adminUser", "RedHat", classLoader)</identifier>
+            <identifier>new org.kie.server.client.integration.RemoteBusinessRuleTaskHandler("https://rhdm-authoring-kieserver-qa-pam-dm.apps.ocp-esc.losheroes.int/services/rest/server", "adminUser", "EwbPyP1w", classLoader)</identifier>
             <parameters/>
             <name>RemoteBusinessRule</name>
         </work-item-handler>
